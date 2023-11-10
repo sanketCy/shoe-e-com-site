@@ -17,7 +17,7 @@
   --white-color: #fff;
 
   /*===== Font and typography =====*/
-  --font-family: Poppins, sans-serif;
+  --body-font: Poppins, sans-serif;
   --big-font-size: 1.25rem;
   --biggerr-font-size: 1.5rem;
   --biggest-font-size: 2rem;
@@ -51,6 +51,26 @@
 }
 
 /*===== BASE =====*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  columns: var(--dark-color);
+  line-height: 1.6;
+}
 
 /*===== CLASS CSS ===== */
 
