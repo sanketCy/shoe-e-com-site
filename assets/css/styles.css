@@ -72,6 +72,20 @@ body {
   line-height: 1.6;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*===== CLASS CSS ===== */
 
 /*===== LAYOUT =====*/
