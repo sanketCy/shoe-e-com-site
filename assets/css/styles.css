@@ -87,6 +87,31 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+.section {
+  padding: 5rem 0 2rem; /* so we give space to breath for our content within container in trbl t:-80px r:-0px b:-32px l:-0px   */
+}
+
+.section-title {
+  position: relative; /* means some other element gone positon relative to this */
+  font-size: var(--big-font-size); /*size of our sec title gone be 20px*/
+  margin-bottom: var(
+    --mb-4
+  ); /*distance from other element form bottom gone be 32px*/
+  text-align: center; /* text gone be horizetally center to container*/
+  line-height: 0.1rem; /*distance between each word in tile gone be 1.6px*/
+}
+
+.section-title::after {
+  content: ''; /* act like childless contianer*/
+  position: absolute; /* element is postion itslef accordingt sec-title*/
+  width: 56px; /* absolute width is given */
+  height: 0.8rem; /* very small height but with relative unit*/
+  top: -1rem; /* it goes top of sec-title*/
+  left: 0; /* don no*/
+  right: 0; /* don no*/
+  margin: auto; /* to make this center*/
+  background-color: var(--dark-color);
+}
 
 /*===== LAYOUT =====*/
 
