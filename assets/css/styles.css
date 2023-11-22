@@ -391,8 +391,36 @@ img {
 }
 
 /*===== WOMEN SNEAKERS =====*/
+.women__container {
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
 
 /*===== OFFER =====*/
+.offer__container {
+  grid-template-columns: 55% 45%;
+  background-color: var(--dark-color-lighten);
+  border-radius: 0.5rem;
+  justify-content: center;
+  column-gap: 0;
+}
+
+.offer__data {
+  padding: 4rem 0 4rem 1.5rem; /*TRBL*/
+}
+
+.offer__name {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.offer__description {
+  margin-bottom: var(--mb-3);
+}
+
+.offer__img {
+  width: 158px;
+}
 
 /*===== NEW COLLECTION  =====*/
 
