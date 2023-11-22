@@ -328,7 +328,7 @@ img {
 .sneaker__name,
 .sneaker__price {
   font-size: var(--h2-font-size);
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--normal-font-size);
   letter-spacing: 0.1rem;
 }
 
@@ -423,6 +423,9 @@ img {
 }
 
 /*===== NEW COLLECTION  =====*/
+.new__container {
+  gap: 2rem;
+}
 
 /*===== NEWSLETTER =====*/
 
