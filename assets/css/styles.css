@@ -485,6 +485,45 @@ img {
 }
 
 /*===== NEWSLETTER =====*/
+.newsletter__container {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.newsletter__title {
+  margin-bottom: var(--mb-2);
+  font-size: var(--biggerr-font-size);
+}
+
+.newsletter__description {
+  margin-bottom: var(--mb-5);
+}
+
+.newsletter__subscribe {
+  display: flex;
+  background-color: var(--white-color);
+  column-gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: var(--normal-font-size);
+}
+
+.newsletter__input {
+  outline: none;
+  border: none;
+  width: 90%;
+  font-size: var(--normal-font-size);
+}
+
+.newsletter__input::placeholder {
+  color: var(--dark-color);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--body-font);
+}
 
 /*===== FOOTER =====*/
 
